@@ -8,7 +8,7 @@ int main()
     double principal;
     double annual_rate;
     double rate;
-    double times_compounded;
+    int times_compounded;
     double amount;
     double interest_earned;
 
@@ -32,14 +32,19 @@ int main()
 
     cout << "\nCompound Interest Report\n";
     cout << "-----------------------------\n";
+
     cout << left << setw(25) << "Interest Rate:"
          << annual_rate << "%\n";
+
     cout << left << setw(25) << "Times Compounded:"
          << times_compounded << "\n";
+
     cout << left << setw(25) << "Principal:"
          << "$" << principal << "\n";
+
     cout << left << setw(25) << "Interest Earned:"
          << "$" << interest_earned << "\n";
+
     cout << left << setw(25) << "Amount in Savings:"
          << "$" << amount << "\n";
 
