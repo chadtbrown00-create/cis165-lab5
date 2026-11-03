@@ -45,3 +45,20 @@
 - Test both programs again using different positive values.
 - Calculate expected results before running the programs.
 - Compare expected results with actual output and document any corrections.
+## Test Results
+
+### Compound Interest — Assigned Test
+- Inputs: Principal = $1,000, Annual Rate = 4.25%, Compounding Periods = 12
+- Expected Interest Earned: $43.34
+- Actual Interest Earned: $43.34
+- Expected Amount: $1,043.34
+- Actual Amount: $1,043.34
+- Result: PASS
+
+### Compound Interest — Changed Test
+- Inputs: Principal = $2,500, Annual Rate = 5.5%, Compounding Periods = 4
+- Expected Interest Earned: $140.36
+- Actual Interest Earned: $140.36
+- Expected Amount: $2,640.36
+- Actual Amount: $2,640.36
+- Result: PASS
