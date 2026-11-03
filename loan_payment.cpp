@@ -8,6 +8,7 @@ int main()
     double loan_amount;
     double annual_rate;
     double monthly_rate;
+    double monthly_rate_percent;
     double monthly_payment;
     double amount_paid_back;
     double interest_paid;
@@ -24,6 +25,8 @@ int main()
     cin >> number_of_payments;
 
     monthly_rate = annual_rate / 100.0 / 12.0;
+
+    monthly_rate_percent = monthly_rate * 100.0;
 
     factor = pow(1.0 + monthly_rate, number_of_payments);
 
@@ -43,7 +46,7 @@ int main()
          << "$" << loan_amount << "\n";
 
     cout << left << setw(25) << "Monthly Interest Rate:"
-         << monthly_rate * 100.0 << "%\n";
+         << monthly_rate_percent << "%\n";
 
     cout << left << setw(25) << "Number of Payments:"
          << number_of_payments << "\n";
